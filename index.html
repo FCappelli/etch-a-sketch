@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>etch-a-sketch byFlavio</title>
+</head>
+<style>
+    html body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .logo {
+        padding: 30px;
+        font-size: 30px;
+    }
+
+    .button {
+        padding: 20px;
+    }
+
+    .changeSize {
+        height: 30px;
+        width: 100px;
+        border: none;
+        border-radius: 5px;
+        background-color: darkolivegreen;
+        color: white;
+    }
+
+    div.table {
+        border: 1px solid black;
+        display: table;
+    }
+
+    div.tr {
+        border: 1px solid black;
+        display: table-row;
+    }
+
+    div.td {
+        border: 1px solid black;
+        display: table-cell;
+        height: 30px;
+        width: 30px;
+    }
+</style>
+
+<body>
+    <div class="logo">
+        Etch-a-sketch
+    </div>
+
+    <div class="button">
+        <button class="changeSize" id="changeSize">Change Size</button>
+    </div>
+    <div id="container" class="table">
+
+    </div>
+    <script src="etch-code.js"></script>
+</body>
+
+</html>
